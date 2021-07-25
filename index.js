@@ -1,8 +1,7 @@
-#!/usr/bin/env node
-'use strict'
+"use strict";
 
-module.exports = require('./lib')
+module.exports = require("./lib");
 
 if (!module.parent) {
-  require('./lib/cli')(process.argv)
+  require("./lib/cli")(process.argv);
 }
